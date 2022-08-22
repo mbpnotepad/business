@@ -1,4 +1,4 @@
-baseURL = "http://mbpnotepad.github.io/"
+baseURL = "http://mbpnotepad.github.io/business"
 languageCode = "en-us"
 title = "Business Administration"
 theme = "hugo-book"
