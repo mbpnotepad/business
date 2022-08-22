@@ -1,0 +1,7 @@
+baseURL = "http://mbpnotepad.github.io/"
+languageCode = "en-us"
+title = "Business Administration"
+theme = "hugo-book"
+resourceDir = "build/resources"
+
+
