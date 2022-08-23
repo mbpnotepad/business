@@ -1,5 +1,23 @@
 # Business Administration
 
+Notes on Business Administration
+
+## Installation
+
+Clone with submodules:
+
+```
+$ git clone --recurse-submodules https://github.com/mbpnotepad/business.git
+```
+
+Alternatively, clone first and then update submodules:
+
+```
+$ git clone https://github.com/mbpnotepad/business.git
+$ cd business
+$ git submodule update --init --recursive
+```
+
 ## Compilation
 
 Serve:
@@ -11,5 +29,5 @@ $ hugo server --renderToDisk --cleanDestinationDir --noHTTPCache --destination b
 Static:
 
 ```
-build/hugo/hugo --cacheDir /mnt/nfs/home/perez_m/usr/src/simverse/core/build/hugo/doc/generated --config build/hugo/hugo_theme/config.toml,build/hugo/doc/config.toml --destination build/hugo/doc/generated/public
+build/hugo/hugo --cacheDir $PWD/build/cache --destination build/public
 ```
