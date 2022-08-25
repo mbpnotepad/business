@@ -42,8 +42,8 @@ PV = \frac{1000}{(1 + .1)} = 909.09
 
 ## Net Present Value
 
-Consider an investment that pays a cash flow of {{<katex>}}C1{{</katex>}} in 1
-year and costs {{<katex>}}C0{{</katex>}} today. Interest rate is
+Consider an investment that pays a cash flow of {{<katex>}}C_1{{</katex>}} in 1
+year and costs {{<katex>}}C_0{{</katex>}} today. Interest rate is
 {{<katex>}}r{{</katex>}}. The NPV of the investment is:
 
 {{< katex display >}}
@@ -52,8 +52,8 @@ NPV = C_0 + \frac{C_1}{(1 + r)}
 
 Example: You are a software developer. You see an opportunity to develop a
 software for a specific client. The investment has a cost (required investment)
-of {{<katex>}}$0.5M{{</katex>}} and will pay you {{<katex>}}$0.54M{{</katex>}}
-in one year. Interest rate is {{<katex>}}5%{{</katex>}}.
+of {{<katex>}}\$0.5M{{</katex>}} and will pay you {{<katex>}}\$0.54M{{</katex>}}
+in one year. Interest rate is {{<katex>}}5\%{{</katex>}}.
 
 {{< katex display >}}
 NPV = -0.5 + \frac{0.54}{1.05} = 0.0143
